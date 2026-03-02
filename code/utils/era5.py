@@ -20,7 +20,7 @@ files_post = ff = filefisher.FileFinder(
 
 def load_landmask(remove_antarctica=True):
 
-    path = DATA_ROOT/ "0.25deg_lat-lon_time-invariant/original"
+    path = DATA_ROOT / "0.25deg_lat-lon_time-invariant/original"
     fN = path / "era5_deterministic_recent.lsm.025deg.time-invariant.nc"
 
     land_mask = xr.open_dataset(fN).lsm

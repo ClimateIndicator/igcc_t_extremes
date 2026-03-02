@@ -13,12 +13,14 @@ xr.set_options(use_flox=False)
 DATA_ROOT = "../data/BerkeleyEarth"
 VERSION = "v2025"
 
+
 def _get_filenames(variable, version):
-    
+
     decade = "*"
 
     path = f"{DATA_ROOT}/{version}/raw/{variable}/Complete_{variable}_Daily_LatLong1_{decade}.nc"
     return sorted(glob.glob(path))
+
 
 def _fix_dataset(ds):
 
@@ -35,6 +37,7 @@ def _fix_dataset(ds):
 
     return ds
 
+
 def read_last_decade(variable, version=VERSION):
 
     files = _get_filenames(variable, version)
@@ -42,7 +45,6 @@ def read_last_decade(variable, version=VERSION):
     ds_orig = xr.open_dataset(files[-1])
 
     return _fix_dataset(ds_orig)
-
 
 
 def read_full(variable, version=VERSION):
@@ -95,7 +97,7 @@ def read_globmean(ref_period, version=VERSION):
     df = pd.read_csv(
         f"{DATA_ROOT}/{version}/raw/Land_and_Ocean_summary.txt",
         header=None,
-        sep=r'\s+',
+        sep=r"\s+",
         na_values="NaN",
         skipinitialspace=True,
         comment="%",
