@@ -1,11 +1,23 @@
 
 # Changelog
 
-## v2026.01 (unreleased)
+## Forster et al. (n.d.)
 
-* Rename repo from *cip_extremes* to *igcc_t_extremes* to align with the official abbreviation and better reflect that only temperature extremes are considered.
+### v2026.01 (unreleased)
 
-## v2025.01 (02.03.2026)
+* Rename repo from *cip_extremes* to *igcc_t_extremes* to align with the official abbreviation and better reflect that only temperature extremes are considered ([#26](https://github.com/ClimateIndicator/igcc_t_extremes/pull/26)).
+* Remove unused data sources ([#32](https://github.com/ClimateIndicator/igcc_t_extremes/pull/32)).
+* Clean up of the repo
+  ([#27](https://github.com/ClimateIndicator/igcc_t_extremes/pull/27),
+  [#28](https://github.com/ClimateIndicator/igcc_t_extremes/pull/28),
+  [#29](https://github.com/ClimateIndicator/igcc_t_extremes/pull/29),
+  [#30](https://github.com/ClimateIndicator/igcc_t_extremes/pull/30),
+  [#31](https://github.com/ClimateIndicator/igcc_t_extremes/pull/31)).
+
+
+## Forster et al. ([2025](https://essd.copernicus.org/articles/17/2641/2025/))
+
+### v2025.01 (02.03.2026)
 
 Release of the version for the analysis for the paper looking at 2024 (Forster et al., [2025](https://essd.copernicus.org/articles/17/2641/2025/)).
 
@@ -20,7 +32,9 @@ Release of the version for the analysis for the paper looking at 2024 (Forster e
 - Add Berkeley Earth to data table ([#23](https://github.com/ClimateIndicator/igcc_t_extremes/pull/23)).
 - Only show 1850-1900 in table and remove 1961-1990 to simplify it ([#24](https://github.com/ClimateIndicator/igcc_t_extremes/pull/24)).
 
-## v2024.01 (12.03.2025)
+## Forster et al. ([2024](https://doi.org/10.5194/essd-16-2625-2024))
+
+### v2024.01 (12.03.2025)
 
 Release of the version for the analysis for the paper looking at 2023 (Forster et al., [2024](https://doi.org/10.5194/essd-16-2625-2024)). (As always it's confusing: the paper looking at 2023 came out in 2024 and I push the tag in 2025, just before working on the new paper.)
 
@@ -29,13 +43,16 @@ Release of the version for the analysis for the paper looking at 2023 (Forster e
   - version data to enable comparing across years
   - add notebook to compare across years
 
-## v2023.02 (04.03.2024)
+## Forster et al. ([2023](https://essd.copernicus.org/articles/15/2295/2023/))
+
+### v2023.02 (04.03.2024)
 
 - Save decadal means as csv, for comparability.
 - No longer load TNn in main notebook.
 
-## v2023.01 (22.02.2024)
+### v2023.01 (22.02.2024)
 
 Create a release of the version for the analysis for the paper looking at 2022 (Forster et al., [2023](https://essd.copernicus.org/articles/15/2295/2023/)). (Allthough the date is 2024, the code reflects the status of the analysis in 2023 of 2022.)
 
 * Code for the analysis of 2022.
+****
