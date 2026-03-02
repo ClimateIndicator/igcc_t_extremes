@@ -7,7 +7,7 @@
 
 * Rename repo from *cip_extremes* to *igcc_t_extremes* to align with the official abbreviation and better reflect that only temperature extremes are considered ([#26](https://github.com/ClimateIndicator/igcc_t_extremes/pull/26)).
 * Remove unused data sources ([#32](https://github.com/ClimateIndicator/igcc_t_extremes/pull/32)).
-* Clarify version by referencing the respecive paper ([#33](https://github.com/ClimateIndicator/igcc_t_extremes/pull/33)).
+* Clarify version by referencing the respective paper ([#33](https://github.com/ClimateIndicator/igcc_t_extremes/pull/33)).
 * Clean up of the repo
   ([#27](https://github.com/ClimateIndicator/igcc_t_extremes/pull/27),
   [#28](https://github.com/ClimateIndicator/igcc_t_extremes/pull/28),
