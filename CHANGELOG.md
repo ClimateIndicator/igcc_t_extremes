@@ -7,6 +7,7 @@
 
 * Rename repo from *cip_extremes* to *igcc_t_extremes* to align with the official abbreviation and better reflect that only temperature extremes are considered ([#26](https://github.com/ClimateIndicator/igcc_t_extremes/pull/26)).
 * Remove unused data sources ([#32](https://github.com/ClimateIndicator/igcc_t_extremes/pull/32)).
+* Clarify version by referencing the respecive paper ([#33](https://github.com/ClimateIndicator/igcc_t_extremes/pull/33)).
 * Clean up of the repo
   ([#27](https://github.com/ClimateIndicator/igcc_t_extremes/pull/27),
   [#28](https://github.com/ClimateIndicator/igcc_t_extremes/pull/28),
@@ -55,4 +56,3 @@ Release of the version for the analysis for the paper looking at 2023 (Forster e
 Create a release of the version for the analysis for the paper looking at 2022 (Forster et al., [2023](https://essd.copernicus.org/articles/15/2295/2023/)). (Allthough the date is 2024, the code reflects the status of the analysis in 2023 of 2022.)
 
 * Code for the analysis of 2022.
-****
