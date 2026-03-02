@@ -12,7 +12,7 @@ files_orig = filefisher.FileFinder(
     file_pattern="era5_deterministic_recent.{variable}.025deg.{time_res}.{year}.nc",
 )
 
-files_post = ff = filefisher.FileFinder(
+files_post = filefisher.FileFinder(
     path_pattern="../data/era5/{variable}",
     file_pattern="era5_{variable}_{year}.nc",
 )
