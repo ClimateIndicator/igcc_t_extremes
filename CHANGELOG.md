@@ -1,20 +1,24 @@
 
 # Changelog
 
+## v2026.01 (unreleased)
+
+* Rename repo from *cip_extremes* to *igcc_t_extremes* to align with the official abbreviation and better reflect that only temperature extremes are considered.
+
 ## v2025.01 (02.03.2026)
 
 Release of the version for the analysis for the paper looking at 2024 (Forster et al., [2025](https://essd.copernicus.org/articles/17/2641/2025/)).
 
-- Adapt code to filefisher v1.1.0, formerly filefinder ([#16](https://github.com/ClimateIndicator/cip_extremes/pull/16)).
-- Update BerkeleyEarth scripts ([#17](https://github.com/ClimateIndicator/cip_extremes/pull/17)):
+- Adapt code to filefisher v1.1.0, formerly filefinder ([#16](https://github.com/ClimateIndicator/igcc_t_extremes/pull/16)).
+- Update BerkeleyEarth scripts ([#17](https://github.com/ClimateIndicator/igcc_t_extremes/pull/17)):
   - comment tnn code
   - show last timestep before loading full data
   - update to newly downloaded data
   - re-process new data
-- Update ALL_txx_tnn_ts notebook ([#18](https://github.com/ClimateIndicator/cip_extremes/pull/18)).
-- Update data for 2024: time series and decadal means ([#19](https://github.com/ClimateIndicator/cip_extremes/pull/19)).
-- Add Berkeley Earth to data table ([#23](https://github.com/ClimateIndicator/cip_extremes/pull/23)).
-- Only show 1850-1900 in table and remove 1961-1990 to simplify it ([#24](https://github.com/ClimateIndicator/cip_extremes/pull/24)).
+- Update ALL_txx_tnn_ts notebook ([#18](https://github.com/ClimateIndicator/igcc_t_extremes/pull/18)).
+- Update data for 2024: time series and decadal means ([#19](https://github.com/ClimateIndicator/igcc_t_extremes/pull/19)).
+- Add Berkeley Earth to data table ([#23](https://github.com/ClimateIndicator/igcc_t_extremes/pull/23)).
+- Only show 1850-1900 in table and remove 1961-1990 to simplify it ([#24](https://github.com/ClimateIndicator/igcc_t_extremes/pull/24)).
 
 ## v2024.01 (12.03.2025)
 

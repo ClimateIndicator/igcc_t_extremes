@@ -1,4 +1,4 @@
-# Climate Indicator Project - Extremes
+# Indicators of Global Climate Change (IGCC) - Temperarture extremes
 
 Authors: Mathias Hauser<sup>1</sup>, Dominik Schumacher<sup>1</sup>, Sonia I. Seneviratne<sup>1</sup>
 
