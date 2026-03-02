@@ -23,3 +23,19 @@ select = [
 [tool.ruff.lint.isort]
 
 known-first-party = ["utils"]
+
+
+[tool.typos.default.extend-words]
+
+# variable name
+varn = "varn"
+varns = "varns"
+
+# numpy
+arange = "arange"
+
+[tool.typos.type.jupyter]
+# avoid fixing the id hashes in jupyter notebooks
+extend-ignore-re = [
+    "\"id\": \".*\"",
+]

@@ -57,7 +57,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## Further Datasets
 
-This section lists datasets that were not considered in this analyis round.
+This section lists datasets that were not considered in this analysis round.
 
 - GHCNDEX (https://www.climdex.org/access/)
   - Low data availability, would require uncertainty analysis and/ or infilling.

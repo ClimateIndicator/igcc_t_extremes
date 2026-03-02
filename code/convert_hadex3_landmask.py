@@ -63,7 +63,7 @@ def convert_hadex3_landmask():
         "mathias.hauser@env.ethz.ch & robert.dunn@metoffice.gov.uk"
     )
 
-    # remove unneccesary attributes
+    # remove unnecessary attributes
     del landmask.attrs["processing_level"]
     del landmask.attrs["time_coverage_start"]
     del landmask.attrs["time_coverage_end"]

@@ -58,7 +58,7 @@ def read_full(variable, version=VERSION):
 
 
 def read(variable, time_period, remove_antarctica=True, version=VERSION):
-    """read Berkeley Earth data, removing unneded parts"""
+    """read Berkeley Earth data, removing unneeded parts"""
 
     ds = read_full(variable, version=version)
 
@@ -66,7 +66,7 @@ def read(variable, time_period, remove_antarctica=True, version=VERSION):
         ds = ds.sel(lat=slice(-60, None))
 
     # remove data before 1950
-    # data availibility is generally low before
+    # data availability is generally low before
     ds = ds.sel(time=time_period)
 
     # make sure there is no incomplete year of data
