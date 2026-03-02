@@ -1,7 +1,9 @@
 
 # Changelog
 
-## v2025.01 (unreleased)
+## v2025.01 (02.03.2026)
+
+Release of the version for the analysis for the paper looking at 2024 (Forster et al., [2025](https://essd.copernicus.org/articles/17/2641/2025/)).
 
 - Adapt code to filefisher v1.1.0, formerly filefinder ([#16](https://github.com/ClimateIndicator/cip_extremes/pull/16)).
 - Update BerkeleyEarth scripts ([#17](https://github.com/ClimateIndicator/cip_extremes/pull/17)):
