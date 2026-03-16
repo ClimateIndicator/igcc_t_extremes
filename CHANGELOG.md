@@ -6,7 +6,9 @@
 ### v2026.01 (unreleased)
 
 * Rename repo from *cip_extremes* to *igcc_t_extremes* to align with the official abbreviation and better reflect that only temperature extremes are considered
-  ([#26](https://github.com/ClimateIndicator/igcc_t_extremes/pull/26), and [#35](https://github.com/ClimateIndicator/igcc_t_extremes/pull/35)).
+  ([#26](https://github.com/ClimateIndicator/igcc_t_extremes/pull/26), [#35](https://github.com/ClimateIndicator/igcc_t_extremes/pull/35)).
+* Save Berkeley Earth TXx scaling with Tglob and offset in a text file for year-to-year comparison
+  ([#9](https://github.com/ClimateIndicator/igcc_t_extremes/issues/9), [#37](https://github.com/ClimateIndicator/igcc_t_extremes/pull/37)).
 * Remove unused data sources ([#32](https://github.com/ClimateIndicator/igcc_t_extremes/pull/32)).
 * Clarify version by referencing the respective paper ([#33](https://github.com/ClimateIndicator/igcc_t_extremes/pull/33)).
 * Clean up of the repo
