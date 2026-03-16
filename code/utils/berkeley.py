@@ -11,7 +11,7 @@ from . import utils
 xr.set_options(use_flox=False)
 
 DATA_ROOT = "../data/BerkeleyEarth"
-VERSION = "v2025"
+VERSION = "v2026"
 
 
 def _get_filenames(variable, version):
