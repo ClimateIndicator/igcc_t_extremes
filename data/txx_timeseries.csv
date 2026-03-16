@@ -11,7 +11,7 @@ Annual maximum land-mean temperatures (TXx) for
 
 NOTE: using this data requires attributing the climate
       indicator project and the data providers. See
-      https://github.com/ClimateIndicator/cip_extremes#data
+      https://github.com/ClimateIndicator/igcc_t_extremes#data
 
 year,ERA5,Berkeley,HadEX3
 1950,-0.89,-,-
