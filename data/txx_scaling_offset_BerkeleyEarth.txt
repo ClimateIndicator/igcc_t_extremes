@@ -1,0 +1,8 @@
+Berkeley Earth Tglob - TXx scaling and offset
+
+TXx offset between 1850-1900 and 1961-1900
+based on the linear relationship for Berkeley Earth Tglob and TXx for 1955 and 2020.
+
+scaling: 1.2339 °C/°C
+ΔTglob : 0.4158 °C
+offset : 0.5131 °C
