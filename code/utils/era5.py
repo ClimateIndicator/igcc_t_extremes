@@ -41,10 +41,10 @@ def load_post(variable):
     for fN, meta in fc.items():
         ds = xr.open_dataset(fN)
 
-        ds = ds.assign_coords(year=int(meta["year"]))
+        ds = ds.assign_coords(year=("time", ds.time.dt.year.values))
 
         out.append(ds)
 
-    ds = xr.concat(out, dim="time")
+    ds = xr.concat(out, dim="time", coords="minimal")
 
     return ds
