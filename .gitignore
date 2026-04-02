@@ -2,8 +2,9 @@
 # exclude netCDF files
 *.nc
 
-# exclude Berkeley global mean
+# exclude Berkeley Earth global mean file
 data/BerkeleyEarth/v*/raw/Land_and_Ocean_summary.txt
+data/BerkeleyEarth/v*/raw/Global_TAVG_annual.txt
 
 
 # Byte-compiled / optimized / DLL files
