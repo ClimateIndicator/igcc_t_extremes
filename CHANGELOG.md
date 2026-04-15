@@ -7,8 +7,11 @@
 
 #### Data processing
 
-- Berkeley Earth: add data folder for 2026 ([#38](https://github.com/ClimateIndicator/igcc_t_extremes/pull/38))
-- ERA5: fix time freq string and no longer compute daily mean temperature ([#39](https://github.com/ClimateIndicator/igcc_t_extremes/pull/39))
+- Update data for 2025: time series, decadal means, and figure ([#45](https://github.com/ClimateIndicator/igcc_t_extremes/pull/45)).
+- Berkeley Earth: add data folder for 2026 ([#38](https://github.com/ClimateIndicator/igcc_t_extremes/pull/38)).
+- ERA5: fix time freq string and no longer compute daily mean temperature ([#39](https://github.com/ClimateIndicator/igcc_t_extremes/pull/39)).
+- Use helper class to define `Decades` ([#43](https://github.com/ClimateIndicator/igcc_t_extremes/pull/43)).
+- Calculate and plot some more diagnostics ([#43](https://github.com/ClimateIndicator/igcc_t_extremes/pull/43), and [#44](https://github.com/ClimateIndicator/igcc_t_extremes/pull/44)).
 
 #### Cleanup
 
